@@ -1,0 +1,87 @@
+.all {
+  color: #707070;
+  font-weight: 200;
+  font-size: 35rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.all .place {
+  width: 100%;
+  height: var(--status-bar-height);
+  background-color: #FFFFFF;
+}
+.all .header {
+  width: 750rpx;
+  text-align: left;
+  background-color: #FFFFFF;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.all .header ._i {
+  width: 50rpx;
+  display: inline-block;
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+  margin-left: 20rpx;
+}
+.all .background {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.all .background image {
+  width: 750rpx;
+}
+.all .content {
+  margin-top: 200rpx;
+}
+.all .content .title {
+  font-size: 60rpx;
+  letter-spacing: 10px;
+}
+.all .content .from {
+  margin-top: 100rpx;
+}
+.all .content .from input {
+  margin-top: 50rpx;
+  width: 600rpx;
+  height: 80rpx;
+  text-align: left;
+  border: 1px solid #707070;
+  border-radius: 40rpx;
+  text-indent: 1em;
+  -webkit-box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.15);
+          box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.15);
+}
+.all .content .btn {
+  margin-top: 100rpx;
+}
+.all .content .btn text {
+  border: 1px solid #707070;
+  padding: 20rpx 100rpx;
+  border-radius: 50rpx;
+  -webkit-box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.15);
+          box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.15);
+}
+.all .signUp {
+  width: 550rpx;
+  display: block;
+  margin-top: 60rpx;
+  text-align: right;
+  font-size: 25rpx;
+}
+

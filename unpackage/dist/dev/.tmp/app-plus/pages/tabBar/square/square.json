@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "广场",
+  "enablePullDownRefresh": true,
+  "titleNView": false,
+  "bounce": "none",
+  "usingComponents": {}
+}

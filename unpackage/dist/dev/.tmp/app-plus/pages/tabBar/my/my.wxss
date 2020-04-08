@@ -1,0 +1,66 @@
+.all {
+  color: #707070;
+  font-weight: 200;
+  font-size: 35rpx;
+}
+.all .backgroundPic {
+  height: 400rpx;
+  overflow: hidden;
+}
+.all .backgroundPic image {
+  width: 100%;
+}
+.all .header {
+  padding: 20rpx 30rpx;
+}
+.all .header image {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  -webkit-box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.15);
+          box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.15);
+}
+.all .header view {
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+}
+.all .header view .title {
+  display: block;
+  font-weight: 800;
+}
+.all .header view .idCard {
+  font-size: 20rpx;
+  font-weight: 800;
+}
+.all .content {
+  border: 1px solid #707070;
+  -webkit-box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.15);
+          box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.15);
+  line-height: 60rpx;
+}
+.all .content text {
+  margin-left: 60rpx;
+  font-weight: 800;
+  font-size: 27rpx;
+}
+.all .content ._i {
+  float: right;
+  margin-right: 30rpx;
+  margin-top: 4rpx;
+}
+.all .signOut {
+  text-align: center;
+  margin-top: 200rpx;
+}
+.all .signOut text {
+  display: inline-block;
+  width: 300rpx;
+  line-height: 70rpx;
+  border: 1px solid #707070;
+  border-radius: 40rpx;
+  -webkit-box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.15);
+          box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.15);
+}
+

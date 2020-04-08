@@ -1,0 +1,133 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabBar/square/square",
+			"style": {
+				"navigationBarTitleText": "广场",
+				"app-plus":{
+					//取消路由导航栏
+					"titleNView":false,
+					"bounce":"none"
+				},
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tabBar/moment/moment",
+			"style": {
+				"navigationBarTitleText": "动态",
+				"app-plus":{
+					//取消路由导航栏
+					"titleNView":false
+					// "bounce":"none"
+				},
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tabBar/replay/replay",
+			"style": {
+				"navigationBarTitleText": "留言",
+				"app-plus":{
+					//取消路由导航栏
+					"titleNView":false
+					// "bounce":"none"
+				},
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tabBar/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"app-plus":{
+					//取消路由导航栏
+					"titleNView":false
+					// "bounce":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/paging/wirteMessage",
+			"style": {
+				"navigationBarTitleText": "写留言",
+				"app-plus":{
+					//取消路由导航栏
+					"titleNView":false
+					// "bounce":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/paging/detailsPage",
+			"style": {
+				"navigationBarTitleText": "详情页",
+				"app-plus":{
+					//取消路由导航栏
+					"titleNView":false
+					// "bounce":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/paging/signIn",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"app-plus":{
+					//取消路由导航栏
+					"titleNView":false
+					// "bounce":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/paging/signUp",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"app-plus":{
+					//取消路由导航栏
+					"titleNView":false
+					// "bounce":"none"
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color": "#707070",
+		"selectedColor":"#B71F08",
+		"borderStyle": "black",
+		"backgroundColor":"#FFFFFF",
+		"list":[
+			{
+				"pagePath":"pages/tabBar/square/square",
+				"iconPath":"static/icon/square.png",
+				"selectedIconPath":"static/icon/square-active.png",
+				"text":"广场"
+			},
+			{
+				"pagePath":"pages/tabBar/moment/moment",
+				"iconPath":"static/icon/moment.png",
+				"selectedIconPath":"static/icon/moment-active.png",
+				"text":"动态"
+			},
+			{
+				"pagePath":"pages/tabBar/replay/replay",
+				"iconPath":"static/icon/message.png",
+				"selectedIconPath":"static/icon/message-active.png",
+				"text":"留言"
+			},
+			{
+				"pagePath":"pages/tabBar/my/my",
+				"iconPath":"static/icon/my.png",
+				"selectedIconPath":"static/icon/my-active.png",
+				"text":"我的"
+			}
+		]
+	}
+}

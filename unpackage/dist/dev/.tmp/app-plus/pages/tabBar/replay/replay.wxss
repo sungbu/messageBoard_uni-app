@@ -1,0 +1,117 @@
+.all {
+  color: #707070;
+  font-weight: 200;
+  font-size: 35rpx;
+  padding: 30rpx 20rpx;
+}
+.all .place {
+  width: 100%;
+  height: var(--status-bar-height);
+}
+.all .hidexRefresh {
+  position: fixed;
+  left: 50%;
+  top: 80rpx;
+  background-color: #ffffff;
+  margin-left: -50rpx;
+  width: 100rpx;
+  height: 100rpx;
+  z-index: -1;
+}
+.all .repalySum {
+  text-align: center;
+  margin-top: 30rpx;
+}
+.all .repalySum .sum {
+  display: inline-block;
+  border: 2px solid #707070;
+  text-align: center;
+  margin: 0 100rpx;
+  border-radius: 10rpx;
+  padding: 5rpx 10rpx;
+}
+.all .repalySum .sum .title {
+  font-size: 25rpx;
+}
+.all .repalySum .sum .iconfont {
+  display: block;
+  width: 100rpx;
+  height: 100rpx;
+  font-size: 100rpx;
+  color: #F26165;
+}
+.all .repalySum .sum .replayIcon {
+  font-size: 80rpx;
+  line-height: 100rpx;
+}
+.all .repalySum .sum .number {
+  font-size: 25rpx;
+  font-weight: 800;
+}
+.all .replayContent {
+  margin-top: 40rpx;
+}
+.all .replayContent .header image {
+  vertical-align: top;
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  border: 3rpx solid #707070;
+  -webkit-box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.15);
+          box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.15);
+}
+.all .replayContent .header text {
+  vertical-align: top;
+  font-size: 30rpx;
+  line-height: 70rpx;
+  margin-left: 20rpx;
+}
+.all .replayContent .header .date {
+  display: inline;
+  font-size: 20rpx;
+  float: right;
+  margin-top: 20rpx;
+  margin-right: 25rpx;
+}
+.all .replayContent .content {
+  font-size: 30rpx;
+  margin-left: 40rpx;
+  margin-top: 20rpx;
+}
+.all .replayContent .message {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 30rpx;
+  font-weight: 800;
+  color: #f4f4f4;
+  border: 4rpx solid #525252;
+  border-radius: 10rpx;
+  background-color: #A1A1A1;
+  padding: 10rpx;
+  margin-top: 20rpx;
+  -webkit-box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.15);
+          box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.15);
+}
+.all .replayContent .ReplayInput input {
+  border: 1px solid #707070;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 10rpx;
+  margin-top: 10rpx;
+  color: #888888;
+  background: rgba(166, 166, 166, 0.2);
+  text-indent: 1em;
+  font-size: 20rpx;
+  height: 40rpx;
+  padding: 0 10rpx;
+  -webkit-box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.15);
+          box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.15);
+}
+.all .loadingText {
+  text-align: center;
+  font-size: 20rpx;
+  margin-top: 10rpx;
+}
+
